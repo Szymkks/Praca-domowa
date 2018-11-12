@@ -1,14 +1,15 @@
 #include <iostream>
 #include <cstdlib>
-using namespace std;
+#include <windows.h>
+
 int main()
 {
-  for(int i=10; i <=20; i++) 
-  {
-  	Sleep(1000);
-  	sytem("cls");
-  	cout <<i <<endl;
-  }
+    for(int i=10; i <=20; i++)
+    {
+        Sleep(1000);
+        system("cls");
+        std::cout << i << std::endl;
+    }
 
- return 0; 
+    return 0;
 }
